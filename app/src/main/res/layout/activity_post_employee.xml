@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/purple_200"
+    tools:context=".PostEmployee">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fill the form below to save an employee"
+        android:textSize="29sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter id_number"
+        android:id="@+id/id_number"
+        android:background="@color/white"
+        android:textAlignment="center"
+        android:layout_margin="15dp"
+        android:textSize="28sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter username"
+        android:id="@+id/username"
+        android:background="@color/white"
+        android:textAlignment="center"
+        android:layout_margin="15dp"
+        android:textSize="28sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter other names"
+        android:id="@+id/others"
+        android:background="@color/white"
+        android:textAlignment="center"
+        android:layout_margin="15dp"
+        android:textSize="28sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter salary"
+        android:id="@+id/salary"
+        android:background="@color/white"
+        android:textAlignment="center"
+        android:layout_margin="15dp"
+        android:textSize="28sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter department"
+        android:id="@+id/department"
+        android:background="@color/white"
+        android:textAlignment="center"
+        android:layout_margin="15dp"
+        android:textSize="28sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Save Employee"
+        android:id="@+id/save"
+        android:backgroundTint="@color/teal_700"
+        android:textSize="25sp"/>
+
+
+</LinearLayout>
